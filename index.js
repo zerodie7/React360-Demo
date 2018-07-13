@@ -6,7 +6,7 @@ import {
   View,
 } from 'react-360';
 
-export default class Hello360 extends React.Component {
+export default class Hello360_Demo extends React.Component {
   render() {
     return (
       <View style={styles.panel}>
@@ -40,4 +40,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Hello360', () => Hello360);
+AppRegistry.registerComponent('Hello360_Demo', () => Hello360_Demo);
